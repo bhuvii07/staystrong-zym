@@ -1,0 +1,93 @@
+body{
+     font-family: 'Fascinate', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(zym.jpg);
+    
+    background-size: cover;
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+.left div {
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 5px auto;
+    
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 12px;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px; /*space */
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+    
+}
+.btn {
+     font-family: 'Fascinate', cursive;;
+    margin: 0px 9px;
+    background-color: black;
+    color:red;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+.container {
+    border: 1px solid green;
+    margin: 150px 20px;
+    padding: 20px 50px;
+    border-radius: 2px;
+    width: 25%;
+}
+.form-group input {
+    text-align: center;
+    display: block;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 3px auto;
+}
+.container {
+    text-align: center;
+}
+.container button{
+    display: block;
+     margin: 20px auto;
+    width: 70%;
+}
